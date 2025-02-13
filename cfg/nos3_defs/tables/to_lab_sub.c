@@ -61,6 +61,8 @@
 #include "generic_thruster_msgids.h"
 #include "novatel_oem615_msgids.h"
 #include "sample_msgids.h"
+#include "client_msgids.h"
+#include "server_msgids.h"
 #include "generic_adcs_msgids.h"
 #include "generic_star_tracker_msgids.h"
 
@@ -129,6 +131,10 @@ TO_LAB_Subs_t TO_LAB_Subs =
         {CFE_SB_MSGID_WRAP_VALUE(GENERIC_STAR_TRACKER_HK_TLM_MID),{0,0},  32},
         {CFE_SB_MSGID_WRAP_VALUE(GENERIC_STAR_TRACKER_DEVICE_TLM_MID),{0,0},  32},
         {CFE_SB_MSGID_WRAP_VALUE(GENERIC_THRUSTER_HK_TLM_MID),  {0,0},  32},
+        {CFE_SB_MSGID_WRAP_VALUE(SERVER_HK_TLM_MID),            {0,0},  32},
+        {CFE_SB_MSGID_WRAP_VALUE(SERVER_DEVICE_TLM_MID),        {0,0},  32},
+        {CFE_SB_MSGID_WRAP_VALUE(CLIENT_HK_TLM_MID),            {0,0},  32},
+        {CFE_SB_MSGID_WRAP_VALUE(CLIENT_DEVICE_TLM_MID),        {0,0},  32},
 
         {CFE_SB_MSGID_WRAP_VALUE(SYN_HK_TLM_MID),           {0,0},  32},
 
